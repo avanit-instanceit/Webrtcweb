@@ -67927,7 +67927,7 @@ $0(){return this.a.d.rq()},
 $S:0}
 A.ty.prototype={
 at(){var s,r,q=A.aos(),p=A.aos(),o=t.N
-o=A.a2(["iceServers",A.b([A.a2(["url","turn:turn.instanceit.com","username","instance","credential","instance"],o,o)],t.SN)],o,t.z)
+o=A.a2(["iceServers",A.b([A.a2(["urls","turn:turn.instanceit.com","username","instance","credential","instance"],o,o),A.a2(["urls","stun:stun.instanceit.com"],o,o)],t.SN)],o,t.z)
 s=$.cA
 r=(s==null?$.cA=$.hb():s).fE(0,"[DEFAULT]")
 A.dn(r,$.eI())
