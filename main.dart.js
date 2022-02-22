@@ -67925,7 +67925,7 @@ $0(){return this.a.d.rq()},
 $S:0}
 A.ty.prototype={
 as(){var s,r,q=A.aoq(),p=A.aoq(),o=t.N
-o=A.a2(["iceServers",A.b([A.a2(["url","turn:turn.instanceit.com","username","instance","credential","instance"],o,o)],t.SN)],o,t.z)
+o=A.a2(["iceServers",A.b([A.a2(["urls","turn:turn.instanceit.com","username","instance","credential","instance"],o,o)],t.SN)],o,t.z)
 s=$.cA
 r=(s==null?$.cA=$.hb():s).fE(0,"[DEFAULT]")
 A.dn(r,$.eI())
@@ -68278,7 +68278,7 @@ $S:9}
 A.aff.prototype={
 $1(a){var s,r="Error : "+A.e(a)
 $.b8()
-s=A.ajl(A.aiF(A.by(0,1000,0),r))
+s=A.ajl(A.aiF(A.by(0,5000,0),r))
 $.E4().mb(s)},
 $S:6}
 A.afg.prototype={
