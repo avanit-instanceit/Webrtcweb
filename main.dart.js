@@ -67988,7 +67988,7 @@ return A.y($async$nb,r)},
 qn(){var s=0,r=A.z(t.H),q=this,p,o,n,m
 var $async$qn=A.A(function(a,b){if(a===1)return A.w(b,r)
 while(true)switch(s){case 0:o=t.N
-n=A.a_(["audio",A.a_(["echoCancellation",!1],o,t.y),"video",A.a_(["facingMode","user"],o,o)],o,t.z)
+n=A.a_(["audio",A.a_(["echoCancellation",!0],o,t.y),"video",A.a_(["facingMode","user"],o,o)],o,t.z)
 o=$.ahV()
 s=2
 return A.E(new A.I3().lR(0,n),$async$qn)
