@@ -20178,8 +20178,9 @@ a3i:function a3i(){},
 lB:function lB(){},
 iK:function iK(){},
 a0P:function a0P(){},
-jT:function jT(a,b){this.a=a
-this.c=b},
+jT:function jT(a,b,c){this.a=a
+this.c=b
+this.d=c},
 o6:function o6(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -38959,14 +38960,14 @@ A.a0S.prototype={
 $0(){return!1},
 $S:3}
 A.a0Q.prototype={
-$1(a){var s,r
+$1(a){var s,r,q
 t.Mr.a(a)
 s=a.deviceId
 if(s==null)s="Generated Device Id :("+J.am0(this.a,a)+")"
 a.groupId
 r=a.kind
-if(a.label==null)""+J.am0(this.a,a)
-return new A.jT(s,r)},
+q=a.label
+return new A.jT(s,r,q==null?"Generated label :("+J.am0(this.a,a)+")":q)},
 $S:422}
 A.Ju.prototype={
 VZ(a,b){var s,r=this,q="_jsPc",p="iceconnectionstatechange",o=r.cy,n=t.k2
@@ -68239,7 +68240,7 @@ if(l.h(a,r).c==="videoinput"){p="video deviceid ---"+l.h(a,r).a
 o=$.ahA
 if(o==null)A.SZ(p)
 else o.$1(p)
-n=l.h(a,r).a
+n=" "+l.h(a,r).d+l.h(a,r).a
 $.b6()
 m=A.a7u(A.Zq(new A.aJ(1e6),n))
 $.v8().kL(m)
