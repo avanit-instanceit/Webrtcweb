@@ -68100,8 +68100,8 @@ case 2:p=b
 o=t.N
 n=A.u(o,t.z)
 n.m(0,"video",A.a_(["facingMode","user"],o,o))
+n.m(0,"audio",!0)
 if(q.a.e!=="")J.dM(p,new A.afB(q,n))
-else n.m(0,"audio",!0)
 A.bW(n)
 s=3
 return A.E(new A.qW().lU(0,n),$async$qn)
@@ -68356,9 +68356,8 @@ return A.zo(A.b([s,r,q],t.p),B.bg,B.h6,B.ch)},
 wR(a,b,c,d){var s=null,r=A.hh(30)
 return A.qB(!1,s,!0,A.bz(s,new A.dm(B.AF,A.aj_(b,c),s),s,s,new A.dx(a,s,s,r,s,s,B.ag),60,s,s,s,60),s,!0,s,s,s,s,s,s,s,s,s,d,s,s,s)}}
 A.afB.prototype={
-$1(a){var s=a.a,r=this.a.a.e,q=this.b
-if(s===r)q.m(0,"audio",A.a_(["deviceId",r],t.N,t.T))
-else q.m(0,"audio",!0)},
+$1(a){var s=a.a,r=this.a.a.e
+if(s===r)this.b.m(0,"audio",A.a_(["deviceId",r],t.N,t.T))},
 $S:146}
 A.afC.prototype={
 $0(){},
