@@ -68291,7 +68291,8 @@ q.x.qO(0)[0].d.enabled=!r
 q.as(new A.afd(q,r))}},
 wU(){var s=0,r=A.A(t.z),q=this
 var $async$wU=A.B(function(a,b){if(a===1)return A.x(b,r)
-while(true)switch(s){case 0:q.as(new A.afe(q))
+while(true)switch(s){case 0:q.EI()
+q.as(new A.afe(q))
 return A.y(null,r)}})
 return A.z($async$wU,r)},
 Aw(){var s=0,r=A.A(t.z),q=this,p
@@ -68486,8 +68487,7 @@ A.afe.prototype={
 $0(){var s=this.a
 if(s.go){s.go=!1
 s.EJ(!1)}else{s.go=!0
-s.EJ(!0)
-if(s.fr)s.EI()}},
+s.EJ(!0)}},
 $S:0}
 A.afw.prototype={
 $1(a){var s=this.a
