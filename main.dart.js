@@ -68145,7 +68145,7 @@ case 2:p=b
 o=t.N
 n=A.u(o,t.z)
 n.m(0,"video",A.Z(["facingMode","user"],o,o))
-n.m(0,"audio",A.Z(["echoCancellation",!0],o,t.y))
+n.m(0,"audio",A.Z(["echoCancellation",!0,"noiseSuppression",!0],o,t.y))
 if(q.a.e!=="")J.dM(p,new A.afE(q,n))
 A.bQ(n)
 s=3
@@ -68403,7 +68403,7 @@ wT(a,b,c,d){var s=null,r=A.hh(30)
 return A.qC(!1,s,!0,A.bz(s,new A.dm(B.AF,A.aj2(b,c),s),s,s,new A.dx(a,s,s,r,s,s,B.ag),60,s,s,s,60),s,!0,s,s,s,s,s,s,s,s,s,d,s,s,s)}}
 A.afE.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.m(0,"audio",A.Z(["deviceId",r,"echoCancellation",!0],t.N,t.X))},
+if(s===r)this.b.m(0,"audio",A.Z(["deviceId",r,"echoCancellation",!0,"noiseSuppression",!0],t.N,t.X))},
 $S:146}
 A.afF.prototype={
 $0(){},
