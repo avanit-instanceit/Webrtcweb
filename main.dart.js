@@ -71091,7 +71091,7 @@ return A.A(A.ea(o,o.gc4().bg(0,"Connection")).b6(0,p.a.d).bg(0,"reconnection").b
 case 7:n=c.cG(0)
 if(n==null)n=t.a.a(n)
 A.bd(n)
-if(!n.h(0,"customerDisconnect")&&p.d&&p.a.c===2){p.d=!1
+if(!n.h(0,"customerDisconnect")&&p.a.c===2){p.d=!1
 p.o1(!0)}else if(!n.h(0,"customerDisconnect")&&p.d&&p.a.c===2)p.ms()
 case 3:if(a===B.up)q.a.d=!0
 return A.w(null,r)}})
