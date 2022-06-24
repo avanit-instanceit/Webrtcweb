@@ -20129,7 +20129,7 @@ a5l:function a5l(a){this.a=a},
 a5m:function a5m(a){this.a=a},
 a5n:function a5n(a){this.a=a},
 a5o:function a5o(){},
-oM(a,b,c){return new A.zQ(a,c,!1,null)},
+oM(a,b,c){return new A.zQ(a,c,!0,null)},
 zQ:function zQ(a,b,c,d){var _=this
 _.c=a
 _.d=b
@@ -68401,7 +68401,7 @@ q.aP()
 q.a.c.a0(0,q.ga4o())
 s=q.a
 r=s.c
-r.Q=!1
+r.Q=!0
 r.sOh(0,s.d===B.ur?"contain":"cover")},
 a4p(){if(this.c!=null)this.af(new A.afb())},
 m(a){if(this.c!=null)this.aN(0)},
@@ -68416,14 +68416,15 @@ A.afb.prototype={
 $0(){},
 $S:0}
 A.afd.prototype={
-$0(){return this.a.a.c.Q=!1},
+$0(){return this.a.a.c.Q=!0},
 $S:0}
 A.afc.prototype={
-$2(a,b){var s,r,q,p=null,o=this.a
-if(o.a.c.y!=null){s=new Float64Array(16)
+$2(a,b){var s,r,q,p=null,o=this.a,n=o.a.c
+if(n.y!=null){n=n.Q?-3.141592653589793:0
+s=new Float64Array(16)
 s[15]=1
-r=Math.cos(0)
-q=Math.sin(0)
+r=Math.cos(n)
+q=Math.sin(n)
 s[0]=r
 s[1]=0
 s[2]=-q
@@ -70953,15 +70954,15 @@ s=q.cF(0,s==null?A.aJ():s)
 q=t.p
 return A.bn(o,A.jt(B.aQ,A.b([A.bn(o,p.Wi(),B.n,o,o,o,s.b,o,o,o,r.a),A.oH(o,A.jt(B.aQ,A.b([A.bn(o,p.Xf(),B.n,o,o,o,200,o,o,o,140),A.nX(o,A.bn(o,o,B.n,B.K,o,o,200,o,o,o,140),B.ar,!1,o,o,o,o,o,o,o,o,o,o,o,new A.ah8(),new A.ah9(p),o,o,o,o,o,o)],q),B.aK,o,o),o,o,10,o,10,o),A.oH(20,p.VB(),o,o,0,0,o,o)],q),B.aK,o,o),B.n,o,o,o,n.a.b,o,o,o,m.a.a)},
 Wi(){var s=this,r=null,q="assets/logo2.png"
-if(s.cy)if(s.a.c===1)return!s.dx?A.oM(s.f,!1,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
-else return A.oM(s.f,!1,B.bt)
-else if(s.a.c===1)return A.oM(s.r,!1,B.bt)
-else return!s.dx?A.oM(s.r,!1,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)},
+if(s.cy)if(s.a.c===1)return!s.dx?A.oM(s.f,!0,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
+else return A.oM(s.f,!0,B.bt)
+else if(s.a.c===1)return A.oM(s.r,!0,B.bt)
+else return!s.dx?A.oM(s.r,!0,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)},
 Xf(){var s=this,r=null,q="assets/logo2.png"
-if(s.cy)if(s.a.c===1)return A.oM(s.r,!1,B.bt)
-else return!s.dx?A.oM(s.r,!1,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
-else if(s.a.c===1)return!s.dx?A.oM(s.f,!1,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
-else return A.oM(s.f,!1,B.bt)},
+if(s.cy)if(s.a.c===1)return A.oM(s.r,!0,B.bt)
+else return!s.dx?A.oM(s.r,!0,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
+else if(s.a.c===1)return!s.dx?A.oM(s.f,!0,B.bt):A.bn(r,A.f5(A.y6(q,r,r),r,r),B.n,B.k,r,r,r,r,r,r,r)
+else return A.oM(s.f,!0,B.bt)},
 VB(){var s,r,q,p=this,o=null
 if(p.a.c===1){s=p.cx?B.Bh:B.Bi
 s=p.t5(B.k,s,B.o,new A.agQ(p))}else s=A.bn(o,o,B.n,o,o,o,o,o,o,o,o)
