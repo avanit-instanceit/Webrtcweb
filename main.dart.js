@@ -72309,7 +72309,8 @@ g.toString
 A.b5("Got room "+J.apO(g))
 s=J.apO(m)?7:9
 break
-case 7:A.b5("Create PeerConnection with configuration: "+n.z.j(0))
+case 7:n.RG=!0
+A.b5("Create PeerConnection with configuration: "+n.z.j(0))
 n.C0()
 n.Pv()
 n.e.e=new A.aiJ(n)
@@ -72339,8 +72340,8 @@ case 15:g=n.ay
 n.id=g==null?null:g.j_().hr(new A.aiK(n))
 s=8
 break
-case 9:if(!n.RG){n.RG=!0
-A.ke(A.bw(0,0,1),new A.aiL(n),t.P)}case 8:q=1
+case 9:if(!n.RG)A.ke(A.bw(0,0,1),new A.aiL(n),t.P)
+case 8:q=1
 s=5
 break
 case 3:q=2
