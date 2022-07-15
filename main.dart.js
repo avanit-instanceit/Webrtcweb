@@ -72225,7 +72225,7 @@ case 2:p=b
 o=t.N
 n=A.D(o,t.z)
 n.m(0,"video",A.Y(["facingMode","user"],o,o))
-n.m(0,"audio",A.Y(["echoCancellation",!0,"noiseSuppression",!0],o,t.y))
+n.m(0,"audio",A.Y(["audio",!0],o,t.y))
 if(q.a.e!=="")J.dZ(p,new A.aj_(q,n))
 A.b5(n)
 s=3
@@ -72599,7 +72599,8 @@ case 4:o=c.cT(0)
 if(o==null)o=t.a.a(o)
 A.b5(o)
 A.b5(q.d)
-if(!o.h(0,"customerDisconnect")&&q.d&&q.a.c===2){q.d=!1
+if(!o.h(0,"customerDisconnect")&&q.d&&q.a.c===2){A.b5("Reconnection -> Customer")
+q.d=!1
 q.om(!0)}else if(!o.h(0,"customerDisconnect")&&q.d&&q.a.c===2)q.mR()
 case 3:return A.v(null,r)}})
 return A.w($async$pO,r)},
@@ -72647,7 +72648,6 @@ s.f.l(0)}r=s.y
 if(r!=null){r.l(0)
 s.r.l(0)}s.aP(0)},
 J(a,b){var s=null
-A.b5("refresh")
 return A.a7V(s,A.ang(!0,A.jB(B.aV,A.b([this.YH(),A.tb(s,this.XZ(),s,s,s,10,10,s)],t.p),B.aP,s,s),!0,B.ak,!0,!0))},
 YH(){var s,r,q,p=this,o=null,n=t.w,m=p.c.P(n).f
 n=p.c.P(n).f
@@ -72684,7 +72684,7 @@ XZ(){var s=null,r=A.eI(30)
 return new A.t8(new A.ais(this),new A.ait(this),A.bC(s,A.a1u(B.BK,B.n),s,s,new A.dJ(B.k,s,s,r,s,s,B.ap),60,s,s,s,60),!0,s,t.nT)}}
 A.aj_.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.m(0,"audio",A.Y(["deviceId",r,"echoCancellation",!0,"noiseSuppression",!0],t.N,t.X))},
+if(s===r)this.b.m(0,"audio",A.Y(["deviceId",r,"audio",!0],t.N,t.X))},
 $S:155}
 A.aj0.prototype={
 $0(){},
