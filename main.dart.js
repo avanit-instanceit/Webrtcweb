@@ -73703,7 +73703,7 @@ $S:6}
 A.afG.prototype={
 $1(a){var s=this.a
 if(s.e!==a){s.ab(new A.afF(s,a))
-if(!a)s.Eg()
+if(!a&&s.a.c===1)s.Eg()
 else s.mQ()}},
 $S:12}
 A.afF.prototype={
