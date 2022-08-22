@@ -73330,7 +73330,9 @@ $1(a){return this.QE(a)},
 QE(a){var s=0,r=A.x(t.P),q=this,p,o,n,m
 var $async$$1=A.t(function(b,c){if(b===1)return A.u(c,r)
 while(true)switch(s){case 0:A.b4("Connection state change: "+a.j(0))
-m=a===B.cA
+p=a===B.cA
+if(p){o=q.a
+if(o.a.c===1)o.aa(new A.ajQ(o))}m=p
 if(m){s=4
 break}else c=m
 s=5
@@ -73340,7 +73342,6 @@ return A.z(q.a.ji(),$async$$1)
 case 6:case 5:s=c?2:3
 break
 case 2:p=q.a
-if(p.a.c===1)p.aa(new A.ajQ(p))
 o=p.cy
 s=7
 return A.z(A.ef(o,o.gcl().bm(0,"Connection")).bd(0,p.a.d).bm(0,"reconnection").bd(0,"disconnect").eA(0),$async$$1)
