@@ -74171,14 +74171,14 @@ s=q.cr(0,s==null?A.aH():s)
 q=t.p
 return A.bl(o,A.iF(B.aI,A.b([A.bl(o,p.Y4(),o,o,o,s.b,o,o,o,r.a),A.p1(o,A.iF(B.aI,A.b([A.bl(o,p.Z2(),o,o,o,200,o,o,o,140),A.ol(o,A.bl(o,o,B.X,o,o,200,o,o,o,140),B.ak,!1,o,o,o,o,o,o,o,o,o,o,o,new A.ajW(),new A.ajX(p),o,o,o,o,o,o)],q),B.aE,o,o),o,o,10,o,10,o),A.p1(20,p.Xn(),o,o,0,0,o,o)],q),B.aE,o,o),o,o,o,n.a.b,o,o,o,m.a.a)},
 Y4(){var s=this,r=null
-if(s.id)if(s.a.c===1)return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,A.kb(A.aoo("assets/demo.gif",r,r),r,r),B.k,r,r,r,r,r,r,r)
+if(s.id)if(s.a.c===1)return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,A.kb(A.aoo("assets/logo2.png",r,r),r,r),B.k,r,r,r,r,r,r,r)
 else return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,r,r,r,r,r,r,r,r,r)
 else if(s.a.c===1)return s.x?A.p6(s.ax,s.C,B.bD):A.bl(r,r,B.k,r,r,r,r,r,r,r)
 else return!s.k2?A.p6(s.ax,s.C,B.bD):s.H2()},
 Z2(){var s=this,r=null
 if(s.id)if(s.a.c===1)return s.x?A.p6(s.ax,s.C,B.bD):A.bl(r,r,B.k,r,r,r,r,r,r,r)
 else return!s.k2?A.p6(s.ax,s.C,B.bD):s.H2()
-else if(s.a.c===1)return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,A.kb(A.aoo("assets/demo.gif",r,r),r,r),B.k,r,r,r,r,r,r,r)
+else if(s.a.c===1)return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,A.kb(A.aoo("assets/logo2.png",r,r),r,r),B.k,r,r,r,r,r,r,r)
 else return!s.k2?A.p6(s.at,s.q,B.bD):A.bl(r,r,r,r,r,r,r,r,r,r)},
 H2(){var s,r,q,p=null
 $.b1()
