@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1fbc9a54b56fc2ba33b2841e12e5875a",
-"index.html": "8a2149a8c825f4354f6c305ff8427a8d",
-"/": "8a2149a8c825f4354f6c305ff8427a8d",
+"index.html": "770b2c1fca67f8e69cb4cd29cd9fa312",
+"/": "770b2c1fca67f8e69cb4cd29cd9fa312",
 "main.dart.js": "c4037e05db989a425d72b8ec2bed3a40",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -34,7 +34,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/audio2.mp3": "cfdca16c3b8d53c88e298d766a497bdc",
 "assets/assets/audio1.mp3": "6abc10083fa97a8d800ac655fe4f5e54",
-"assets/assets/Kioclerk.mp4": "0417b8c0c220696c4b04ffca0139e6db",
+"assets/assets/Kioclerk.mp4": "f4bde6c80ecc05e3a8271c61ec25f5a3",
 "assets/assets/loading.gif": "522618121f93ac633b7d484ec990160a",
 "assets/assets/Error.png": "02b2f485d04316ba25364433323362ed",
 "assets/assets/logo.png": "40dd97839a674699de383755ee651cda",
