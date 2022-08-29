@@ -73496,7 +73496,7 @@ p=p.cr(0,s==null?A.aH():s)
 s=q.gdU()
 q=q.w
 q=s.cr(0,q==null?A.aH():q)
-p=A.bl(r,A.ka(A.bl(r,A.Ju("assets/intro.gif",B.lV,r,r),r,r,r,q.b,r,r,r,p.a),r,r),r,r,r,r,r,r,r,r)
+p=A.bl(r,A.ka(A.bl(r,A.Ju("assets/Kiosys.gif",B.lV,r,r),r,r,r,q.b,r,r,r,p.a),r,r),r,r,r,r,r,r,r,r)
 q=p}return q},
 $S:78}
 A.aiA.prototype={
@@ -74071,7 +74071,7 @@ r=r.cr(0,q==null?A.aH():q)
 q=s.gdU()
 s=s.w
 s=q.cr(0,s==null?A.aH():s)
-return A.bl(p,A.Ju("assets/intro.gif",B.lV,p,p),p,p,p,s.b,p,p,p,r.a)},
+return A.bl(p,A.Ju("assets/Kiosys.gif",B.lV,p,p),p,p,p,s.b,p,p,p,r.a)},
 Xl(){var s,r,q,p=this,o=null
 if(p.a.c===1){s=p.go?B.Cj:B.Ck
 s=p.tV(B.k,s,B.n,new A.ajq(p))}else s=A.bl(o,o,o,o,o,o,o,o,o,o)
