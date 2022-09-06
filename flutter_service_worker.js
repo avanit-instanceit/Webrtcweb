@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1fbc9a54b56fc2ba33b2841e12e5875a",
-"index.html": "1fafe93d06c56e545eb3785f8a21d190",
-"/": "1fafe93d06c56e545eb3785f8a21d190",
+"index.html": "65c817f3583c98ee004797cc5c3d4300",
+"/": "65c817f3583c98ee004797cc5c3d4300",
 "main.dart.js": "3100bb1ad6dbfe549e24577bf39faf1b",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -32,7 +32,7 @@ const RESOURCES = {
 "assets/packages/neon/lib/fonts/Monoton/Monoton-Regular.ttf": "f6aa15866bffca161454d7554a004259",
 "assets/packages/neon/lib/fonts/Membra/Membra.ttf": "e378d80f5875e9095843e141e283897e",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/assets/Kiosys.gif": "33fd331ec3e86ed5b6fc7224411284de",
+"assets/assets/Kiosys.gif": "a754f26165c399d2c3f9a892467afdd0",
 "assets/assets/Kioclerk.mp4": "f4bde6c80ecc05e3a8271c61ec25f5a3",
 "assets/assets/loading.gif": "522618121f93ac633b7d484ec990160a",
 "assets/assets/Error.png": "02b2f485d04316ba25364433323362ed",
