@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1fbc9a54b56fc2ba33b2841e12e5875a",
-"index.html": "d5225ea8695da5af10be3a7af053a8d3",
-"/": "d5225ea8695da5af10be3a7af053a8d3",
-"main.dart.js": "ef0d5839f7ce720ecbe08ec003117302",
+"index.html": "005ae8a26ec038f1d0c75c849887bc87",
+"/": "005ae8a26ec038f1d0c75c849887bc87",
+"main.dart.js": "4f056c291eae72271e8d84ca323f95e5",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "logo.png": "e3003c9b45351f23c06d2516d4780a20",
