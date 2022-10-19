@@ -54302,7 +54302,7 @@ var $async$qs=A.U(function(a,b){if(a===1)return A.Q(b,r)
 while(true)switch(s){case 0:m=t.Cu
 l=q.c.V(m)
 l.toString
-l.f.qn(A.ZC(null,null,null,null,B.O,A.a8_(A.E6("audio/mp3")),B.cN,A.bw(0,0,0,1),null,null,null,null,null,null,null))
+l.f.qn(A.ZC(null,null,null,null,B.O,A.a8_(A.E6("audio/webm")),B.cN,A.bw(0,0,0,1),null,null,null,null,null,null,null))
 try{l=q.d
 if(l!=null)l.wy(0,l.GF(0)[0])
 $.a6O()
@@ -54310,7 +54310,7 @@ l=new A.B5()
 q.e=new A.B4(l)
 o=q.d
 o.toString
-l.Hj(o,"audio/mp3",new A.a2Q())}catch(k){p=A.ah(k)
+l.Hj(o,"audio/webm",new A.a2Q())}catch(k){p=A.ah(k)
 m=q.c.V(m)
 m.toString
 m.f.qn(A.ZC(null,null,null,null,B.O,A.a8_(A.E6(J.bJ(p))),B.cN,A.bw(0,0,2,0),null,null,null,null,null,null,null))}return A.R(null,r)}})
