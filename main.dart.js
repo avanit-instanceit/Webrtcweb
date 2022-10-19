@@ -80158,6 +80158,7 @@ var $async$nQ=A.q(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 l=n.fr
 A.b7("------------"+A.f(l==null?null:l.db))
+n.dy=!1
 n.cK.adJ(0,n.d)
 n.cb.m()
 l=n.x2
@@ -80490,7 +80491,7 @@ if(q==null)s=null
 else{q=A.fz(q.i1(0)[0].d.getSettings())
 q.toString
 q=t.a.a(q).h(0,"channelCount")
-s=q}if(s==null)s=2
+s=q}if(s==null)s=1
 q=r.k2
 if(q==null)q=null
 else{q=A.fz(q.i1(0)[0].d.getSettings())
@@ -80505,7 +80506,7 @@ if(q==null)s=null
 else{q=A.fz(q.i1(0)[0].d.getSettings())
 q.toString
 q=t.a.a(q).h(0,"channelCount")
-s=q}if(s==null)s=2
+s=q}if(s==null)s=1
 q=r.k2
 q.toString
 r.aB.uG(q,new A.ar2(r,s))
