@@ -79501,7 +79501,7 @@ UZ(a,b){var s=0,r=A.v(t.z),q=this,p,o,n
 var $async$uG=A.q(function(c,d){if(c===1)return A.r(d,r)
 while(true)switch(s){case 0:try{if(q.b){q.b=!1
 o=q.a
-o.a.V_(a,"audio/mp3",new A.a8J(q,b))}}catch(m){p=A.a_(m)
+o.a.V_(a,"audio/ogg;codecs=opus",new A.a8J(q,b))}}catch(m){p=A.a_(m)
 A.jn().$1(J.bW(p))}return A.t(null,r)}})
 return A.u($async$uG,r)},
 uI(){var s=0,r=A.v(t.z),q=this,p,o,n,m
