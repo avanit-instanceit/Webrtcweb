@@ -31378,7 +31378,7 @@ A.r1.prototype={
 gYP(a){var s=a.result
 if(t.x.b(s))return A.c8(s,0,null)
 return s},
-Yo(a,b){return a.readAsArrayBuffer(b)}}
+Yo(a,b){return a.readAsDataURL(b)}}
 A.l1.prototype={
 gT(a){return a.name}}
 A.At.prototype={
