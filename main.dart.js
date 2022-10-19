@@ -80980,7 +80980,7 @@ p=q.bj
 o=p==null
 n=o?null:p.a
 p=o?null:p.d
-s=A.O(["result",a,"inputlngid",n,"subtitlelngid",p,"roomid",q.d,"usertype",q.a.c,"channelCount",this.b],t.N,t.z)
+s=A.O(["result",a,"inputlngid",n,"subtitlelngid",p,"roomid",q.d,"usertype",q.a.c,"channelCount",this.b,"encoding","LINEAR16","sampleRateHertz",48e3],t.N,t.z)
 q=q.cK.a
 if(q!=null)q.il("blob",s)}catch(m){r=A.a_(m)
 A.jn().$1(J.bW(r))}},
@@ -81005,7 +81005,7 @@ p=q.bj
 o=p==null
 n=o?null:p.a
 p=o?null:p.d
-s=A.O(["result",a,"inputlngid",n,"subtitlelngid",p,"roomid",q.d,"usertype",q.a.c,"channelCount",this.b],t.N,t.z)
+s=A.O(["result",a,"inputlngid",n,"subtitlelngid",p,"roomid",q.d,"usertype",q.a.c,"channelCount",this.b,"encoding","LINEAR16","sampleRateHertz",48e3],t.N,t.z)
 q=q.cK.a
 if(q!=null)q.il("blob",s)}catch(m){r=A.a_(m)
 A.jn().$1(J.bW(r))}},
