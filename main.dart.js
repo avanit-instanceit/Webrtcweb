@@ -80478,7 +80478,7 @@ else{q=A.fZ(q.iE(0)[0].d.getSettings())
 q.toString
 q=t.a.a(q).h(0,"channelCount")
 s=q}if(s==null)s=2
-q=r.k2
+q=r.k1
 q.toString
 r.bu.uG(q,new A.ar4(r,s))
 A.fJ(A.aZ(0,1800,0),new A.ar5(r),t.P)},
@@ -80488,7 +80488,7 @@ else{q=A.fZ(q.iE(0)[0].d.getSettings())
 q.toString
 q=t.a.a(q).h(0,"channelCount")
 s=q}if(s==null)s=2
-q=r.k2
+q=r.k1
 q.toString
 r.aB.uG(q,new A.ar2(r,s))
 A.fJ(A.aZ(0,1800,0),new A.ar3(r),t.P)},
