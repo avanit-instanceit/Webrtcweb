@@ -80211,15 +80211,15 @@ var $async$Et=A.p(function(b,a0){if(b===1)return A.r(a0,r)
 while(true)switch(s){case 0:k=t.N
 j=t.z
 i=A.P(["transports",A.a(["websocket"],t.s),"autoConnect",!1],k,j)
-h=A.kz("https://call.kioclerk.com:3660/",0,null)
+h=A.kz("https://call.kioclerk.com:3660",0,null)
 g=h.gdA()+"://"+h.ghi(h)+":"+h.glO(h)
 f=h.gc_(h)
 e=$.av5.V(0,g)&&$.av5.h(0,g).d.V(0,f)
 d=i.h(0,"forceNew")===!0||i.h(0,"force new connection")===!0||!1===i.h(0,"multiplex")||e
 c=A.b2("io")
-if(d){$.aJ7().aH(B.m,"ignoring socket cache for https://call.kioclerk.com:3660/",null,null)
-c.b=A.aCq(i,"https://call.kioclerk.com:3660/")}else{p=$.av5.h(0,g)
-if(p==null){p=A.aCq(i,"https://call.kioclerk.com:3660/")
+if(d){$.aJ7().aH(B.m,"ignoring socket cache for https://call.kioclerk.com:3660",null,null)
+c.b=A.aCq(i,"https://call.kioclerk.com:3660")}else{p=$.av5.h(0,g)
+if(p==null){p=A.aCq(i,"https://call.kioclerk.com:3660")
 $.av5.l(0,g,p)}c.b=p}if(h.gjz(h).length!==0&&i.h(0,"query")==null)i.l(0,"query",h.gjz(h))
 else i.h(0,"query")
 p=c.ap()
@@ -80265,7 +80265,7 @@ o.QU$=n
 o.QV$=new A.ZV(A.aR(t.Gf))
 m=A
 s=2
-return A.y(o.H6(0,"https://call.kioclerk.com:3660//sendmessage/"+b,null,a,null,null,A.aLN("POST",A.aNT(p)),null,q),$async$tY)
+return A.y(o.H6(0,"https://call.kioclerk.com:3660/sendmessage/"+b,null,a,null,null,A.aLN("POST",A.aNT(p)),null,q),$async$tY)
 case 2:m.b_(d.a)
 return A.t(null,r)}})
 return A.u($async$tY,r)}}
