@@ -23909,7 +23909,8 @@ this.c=c},
 asK:function asK(){},
 asL:function asL(){},
 asX:function asX(a){this.a=a},
-at_:function at_(a){this.a=a},
+at_:function at_(a,b){this.a=a
+this.b=b},
 asY:function asY(a){this.a=a},
 asZ:function asZ(a){this.a=a},
 asT:function asT(a){this.a=a},
@@ -81440,11 +81441,16 @@ s=s==null?null:s.a
 r.Aj(s==null?"en-US":s)}},
 agI(){var s=this.cS.a
 new A.ei(s,A.k(s).i("ei<1>")).dK(new A.asX(this))},
-agJ(){var s,r,q=this,p=q.eg,o=q.fy
-o.toString
-p.c=o
-try{q.E=p.u0().dK(new A.at_(q))}catch(r){s=A.Y(r)
-A.oA().$1(J.bG(s))}},
+agJ(){var s,r,q,p,o,n=this,m=n.e
+if(m==="1")q=0.3
+else q=m==="2"?0.1:0.3
+s=q
+m=n.eg
+p=n.fy
+p.toString
+m.c=p
+try{n.E=m.u0().dK(new A.at_(n,s))}catch(o){r=A.Y(o)
+A.oA().$1(J.bG(r))}},
 ar(){var s,r=this
 r.we()
 r.agI()
@@ -82005,7 +82011,7 @@ TY(a){var s=0,r=A.v(t.H),q=this,p,o
 var $async$$1=A.p(function(b,c){if(b===1)return A.r(c,r)
 while(true)switch(s){case 0:p=q.a
 o=p.fy
-if((o==null?null:o.db)===B.kV)if(J.aJK(J.aa(a,"audioLevel"),0.3)){o=p.aw
+if((o==null?null:o.db)===B.kV)if(J.aJK(J.aa(a,"audioLevel"),q.b)){o=p.aw
 if(o!=null)o.X(0)
 if(!p.fx){p.fx=!0
 p.Vs()}}else{o=p.aw
