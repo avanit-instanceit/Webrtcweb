@@ -80463,14 +80463,16 @@ A.a9Z.prototype={
 Aj(a,b){return this.Vu(a,b)},
 Vu(a,b){var s=0,r=A.v(t.z),q=this,p,o,n
 var $async$Aj=A.q(function(c,d){if(c===1)return A.r(d,r)
-while(true)switch(s){case 0:try{if(q.b){q.b=!1
+while(true)switch(s){case 0:try{if(q.b){A.aW("recording start")
+q.b=!1
 o=q.a
-o.a.Vv(a,"audio/mp4",new A.aa0(q,b))}}catch(m){p=A.Y(m)
+o.a.Vv(a,"audio/webm",new A.aa0(q,b))}}catch(m){p=A.Y(m)
 A.xq().$1(J.bJ(p))}return A.t(null,r)}})
 return A.u($async$Aj,r)},
 uQ(){var s=0,r=A.v(t.z),q=this,p,o,n,m
 var $async$uQ=A.q(function(a,b){if(a===1)return A.r(b,r)
-while(true)switch(s){case 0:try{o=q.a.a
+while(true)switch(s){case 0:try{A.aW("recording stop")
+o=q.a.a
 n=o.a
 n===$&&A.b()
 n.stop()
@@ -81347,18 +81349,16 @@ o.a.aI(0,p)}return A.t(null,r)}})
 return A.u($async$uR,r)},
 adL(){var s=this.RG
 this.y2=s==null?null:s.bf(0,"camera").b1(0,"camera").iM().dK(new A.asD(this))},
-Vs(){var s,r,q,p=this
-A.aW("enter in listening")
-s=p.p1
-if(s==null)r=null
-else{s=A.hy(s.jG(0)[0].d.getSettings())
-s.toString
-s=t.a.a(s).h(0,"channelCount")
-r=s}if(r==null)r=1
-q=A.Q(["audioChannelCount",r,"languageCode",p.f,"enableAutomaticPunctuation",!0,"useEnhanced",!0,"enableWordConfidence",!0,"enableWordTimeOffsets",!0,"model","default","sampleRateHertz",48e3],t.N,t.z)
-s=p.p1
-s.toString
-p.bF.Aj(s,new A.ath(p,q))},
+Vs(){var s,r,q=this,p=q.p1
+if(p==null)s=null
+else{p=A.hy(p.jG(0)[0].d.getSettings())
+p.toString
+p=t.a.a(p).h(0,"channelCount")
+s=p}if(s==null)s=1
+r=A.Q(["audioChannelCount",s,"languageCode",q.f,"enableAutomaticPunctuation",!0,"useEnhanced",!0,"enableWordConfidence",!0,"enableWordTimeOffsets",!0,"model","default","sampleRateHertz",48e3],t.N,t.z)
+p=q.p1
+p.toString
+q.bF.Aj(p,new A.ath(q,r))},
 v4(a,b){return this.a_t(a,b)},
 a_t(a,b){var s=0,r=A.v(t.z),q=this,p
 var $async$v4=A.q(function(c,d){if(c===1)return A.r(d,r)
