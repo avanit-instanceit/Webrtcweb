@@ -81938,7 +81938,7 @@ if(o.fy.db===B.kV)if(J.aJD(J.aa(a,"audioLevel"),0.1)){p=o.aw
 if(p!=null)p.X(0)
 if(!o.fx){o.fx=!0
 o.Vt()}}else{p=o.aw
-if(p!=null){if(p.b==null)o.aw=A.by(A.bo(0,1200,0),new A.asS(o))}else o.aw=A.by(A.bo(0,1200,0),new A.asT(o))}return A.t(null,r)}})
+if(p!=null){if(p.b==null)o.aw=A.by(A.bo(0,1000,0),new A.asS(o))}else o.aw=A.by(A.bo(0,1000,0),new A.asT(o))}return A.t(null,r)}})
 return A.u($async$$1,r)},
 $S:526}
 A.asS.prototype={
