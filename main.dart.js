@@ -80879,7 +80879,7 @@ case 2:p=b
 o=t.N
 n=A.y(o,t.z)
 n.l(0,"video",A.Q(["facingMode","user"],o,o))
-n.l(0,"audio",A.Q(["mimeType","video/webm;codecs=vp9","sampleRate",16e3,"sampleSize",16],o,t.K))
+n.l(0,"audio",A.Q(["mimeType","video/webm;codecs=vp9"],o,o))
 if(q.a.e!=="")J.cp(p,new A.asX(q,n))
 s=3
 return A.z(new A.ue().nE(0,n),$async$tW)
@@ -81571,7 +81571,7 @@ break}}},
 $S:509}
 A.asX.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.l(0,"audio",A.Q(["mimeType","video/webm;codecs=vp9","deviceId",r,"sampleRate",16e3,"sampleSize",16],t.N,t.X))},
+if(s===r)this.b.l(0,"audio",A.Q(["mimeType","video/webm;codecs=vp9","deviceId",r],t.N,t.T))},
 $S:183}
 A.asY.prototype={
 $0(){},
