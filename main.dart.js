@@ -81918,10 +81918,10 @@ TY(a){var s=0,r=A.v(t.H),q=this,p,o
 var $async$$1=A.q(function(b,c){if(b===1)return A.r(c,r)
 while(true)switch(s){case 0:p=q.a
 o=p.fy
-if((o==null?null:o.db)===B.kV)if(J.aJD(J.aa(a,"audioLevel"),0.1)){if(A.f7()==="2")A.aW("voice hight")
-o=p.aw
+if((o==null?null:o.db)===B.kV)if(J.aJD(J.aa(a,"audioLevel"),0.2)){o=p.aw
 if(o!=null)o.X(0)
 if(!p.fx){p.fx=!0
+if(A.f7()==="2")A.aW("voice high")
 p.Vs()}}else{o=p.aw
 if(o!=null){if(o.b==null)p.aw=A.by(A.bo(0,1200,0),new A.asS(p))}else p.aw=A.by(A.bo(0,1200,0),new A.asT(p))}return A.t(null,r)}})
 return A.u($async$$1,r)},
