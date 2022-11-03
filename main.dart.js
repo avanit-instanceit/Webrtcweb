@@ -80672,7 +80672,7 @@ case 2:p=b
 o=t.N
 n=A.y(o,t.z)
 n.l(0,"video",A.R(["facingMode","user"],o,o))
-n.l(0,"audio",A.R(["sampleRate",48e3,"sampleSize",16],o,t.S))
+n.l(0,"audio",A.R(["mimeType","video/webm;codecs=vp9"],o,o))
 if(q.a.e!=="")J.cI(p,new A.asO(q,n))
 s=3
 return A.z(new A.ua().nB(0,n),$async$tU)
@@ -81361,7 +81361,7 @@ $0(){this.a.bK=J.ae(J.ae(this.b,"data"),"result")},
 $S:0}
 A.asO.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.l(0,"audio",A.R(["deviceId",r,"sampleRate",48e3,"sampleSize",16],t.N,t.X))},
+if(s===r)this.b.l(0,"audio",A.R(["mimeType","video/webm;codecs=vp9","deviceId",r],t.N,t.T))},
 $S:181}
 A.asP.prototype={
 $0(){},
