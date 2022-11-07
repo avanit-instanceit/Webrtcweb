@@ -81624,7 +81624,7 @@ l=A.d3(m.h(n,"isinputcaptionon"))
 q.bN=l===!0
 l=A.d3(m.h(n,"subtitleon"))
 q.bj=l===!0
-if(q.c!=null)q.a_(new A.asF())
+q.a_(new A.asF())
 A.iT(A.bq(0,200,0),new A.asG(q),t.P)
 p=A.bE(m.h(n,"inputlanguage"))
 if(p==null)p=""
@@ -82201,8 +82201,7 @@ A.asF.prototype={
 $0(){},
 $S:0}
 A.asG.prototype={
-$0(){var s=this.a
-if(s.c!=null)s.a_(new A.asE())},
+$0(){this.a.a_(new A.asE())},
 $S:5}
 A.asE.prototype={
 $0(){},
