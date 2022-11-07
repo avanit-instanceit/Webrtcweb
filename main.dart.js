@@ -81552,7 +81552,8 @@ p.toString
 p=t.a.a(p).h(0,"channelCount")
 s=p}if(s==null)s=1
 p=q.E
-r=A.O(["audioChannelCount",s,"languageCode",p==null?null:p.a,"enableAutomaticPunctuation",!0,"useEnhanced",!0,"enableWordConfidence",!0,"enableWordTimeOffsets",!0,"model","default"],t.N,t.z)
+p=p==null?null:p.a
+r=A.O(["audioChannelCount",s,"languageCode",p==null?"en-US":p,"enableAutomaticPunctuation",!0,"useEnhanced",!0,"enableWordConfidence",!0,"enableWordTimeOffsets",!0,"model","default"],t.N,t.z)
 p=q.p1
 p.toString
 q.y.A9(p,new A.ats(q,r))},
@@ -82124,7 +82125,9 @@ try{q=this.a
 p=q.E
 o=p==null
 n=o?null:p.a
+if(n==null)n="en-US"
 p=o?null:p.d
+if(p==null)p="en"
 o=q.a.c
 m=A.azy()==="2"?"ios":"android"
 s=A.O(["result",a,"inputlngid",n,"subtitlelngid",p,"roomid",q.d,"usertype",o,"config",this.b,"device",m],t.N,t.z)
