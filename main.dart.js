@@ -81624,8 +81624,8 @@ l=A.d3(m.h(n,"isinputcaptionon"))
 q.bN=l===!0
 l=A.d3(m.h(n,"subtitleon"))
 q.bj=l===!0
-if(q.c!=null)q.a_(new A.asF())
-A.iT(A.bq(0,200,0),new A.asG(q),t.P)
+q.a_(new A.asF())
+A.iT(A.bq(0,100,0),new A.asG(q),t.P)
 p=A.bE(m.h(n,"inputlanguage"))
 if(p==null)p=""
 l=q.ex
@@ -81690,8 +81690,8 @@ p=s.h(a,"customer_subtitllngid")
 if(p==null)p=""
 if(p!=="")o.a1=B.b.il(r,new A.at3(p))
 else o.a1=B.b.il(r,new A.at4())
-if(o.c!=null)o.a_(new A.at5())
-A.iT(A.bq(0,200,0),new A.at6(o),t.P)},
+o.a_(new A.at5())
+A.iT(A.bq(0,100,0),new A.at6(o),t.P)},
 ap(){var s=this,r=s.ex
 r.push(new A.fV("en-US","assets/flag/us.png","English","en"))
 r.push(new A.fV("es","assets/flag/spanish.png","Spanish","es"))
@@ -82201,8 +82201,7 @@ A.asF.prototype={
 $0(){},
 $S:0}
 A.asG.prototype={
-$0(){var s=this.a
-if(s.c!=null)s.a_(new A.asE())},
+$0(){this.a.a_(new A.asE())},
 $S:5}
 A.asE.prototype={
 $0(){},
@@ -82235,8 +82234,7 @@ A.at5.prototype={
 $0(){},
 $S:0}
 A.at6.prototype={
-$0(){var s=this.a
-if(s.c!=null)s.a_(new A.at0())},
+$0(){this.a.a_(new A.at0())},
 $S:5}
 A.at0.prototype={
 $0(){},
