@@ -81656,7 +81656,7 @@ case 2:q.dy=b
 s=3
 return A.z(A.Yq("remotemirror"),$async$q_)
 case 3:q.fr=b
-q.a_(new A.asK(q))
+if(q.c!=null)q.a_(new A.asK(q))
 A.iT(B.p,new A.asL(q),t.P)
 return A.r(null,r)}})
 return A.t($async$q_,r)},
@@ -82236,7 +82236,8 @@ A.asK.prototype={
 $0(){},
 $S:0}
 A.asL.prototype={
-$0(){this.a.a_(new A.asJ())},
+$0(){var s=this.a
+if(s.c!=null)s.a_(new A.asJ())},
 $S:5}
 A.asJ.prototype={
 $0(){},
