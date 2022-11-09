@@ -2,6 +2,7 @@
 
 var audio = new Audio();
 
+
 function permissionStatus(){
     return audio.autoplay;
 }
@@ -12,6 +13,7 @@ function giveAudioPermission(){
 }
 
 function playAudio(path){
+    audio.volume = 1.0;
     console.log(audio.autoplay);
     try{
         audio.src = path;
