@@ -74,3 +74,30 @@ async function stopRecognition(isforcestop){
     forceStop = isforcestop;
     await recognition.stop();
 }
+
+//var source = "https://developer.voicemaker.in/uploads/1667965874459-voicemaker.in-speech.mp3";
+//var audio = new Audio();
+//audio.src = source;
+// audio.autoplay = true;
+
+// function getPermission(){
+//     audio.autoplay = true;
+// }
+
+// function playaudio(path){
+//     audio.src = path;
+//     audio.play();
+// }
+
+
+
+
+// function otherAudio(){
+
+//     var source = "https://developer.voicemaker.in/uploads/1667966299959-voicemaker.in-speech.mp3";
+//     var audio = new Audio();
+//     audio.src = source;
+//     audio.autoplay = true;
+//     audio.play();
+
+// }
