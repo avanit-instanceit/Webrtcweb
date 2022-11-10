@@ -90198,7 +90198,7 @@ k=A.a0(g)
 o.a.A(0,B.ym)
 $.b4()
 j=$.dQ().xr
-A.Ai("Ok",$.L.F$.z.h(0,j),"Sorry For Inconvenience!!!! \nText To Speech is not available at this moment please turn of it.",new A.aO1())
+A.Ai("Ok",$.L.F$.z.h(0,j),"Sorry For Inconvenience!!!! \nText To Speech is not available at this moment please try again latter.",new A.aO1())
 A.bj(k)
 s=5
 break
