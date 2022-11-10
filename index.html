@@ -32,6 +32,15 @@
     <title>Call.Kioclerk</title>
     <link rel="manifest" href="manifest.json">
     <!--    <script src="app.js"></script>-->
+    <!-- <script type="text/javascript"> -->
+
+    // This sets the Flutter web renderer in auto detect mode.
+
+    // See https://stackoverflow.com/a/64583462/6509751.
+
+    //window.flutterWebRenderer = 'html';
+
+  <!-- </script> -->
 </head>
 <body>
 <!-- This script installs service_worker.js to provide PWA functionality to
@@ -75,7 +84,7 @@ const firebaseConfig = {
 
 
 
-    var serviceWorkerVersion = '3596738948';
+    var serviceWorkerVersion = '2923609685';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -147,6 +156,7 @@ const firebaseConfig = {
 
 <script src="./speechrecognition.js"></script>
 <script src="./audioplayer.js"></script>
+<!-- <script src="./demoAudio.js"></script> -->
 
 <!--<script src="https://cdn.webrtc-experiment.com/Translator.js"></script>-->
 
