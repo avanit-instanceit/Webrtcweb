@@ -57,20 +57,20 @@ function sendStatusToDart(status){
 }
 
 
-async function getBytes(path){
-    // var request = new XMLHttpRequest();
-    // request.open('GET',path,true);
-    // request.responseType = 'arraybuffer';
+// async function getBytes(path){
+//     // var request = new XMLHttpRequest();
+//     // request.open('GET',path,true);
+//     // request.responseType = 'arraybuffer';
 
-    // request.onload = function(){
-    //     console.log(request);
-    // }
-    // fe
+//     // request.onload = function(){
+//     //     console.log(request);
+//     // }
+//     // fe
 
-    // request.send();
-    const response = await fetch(path);
-    const data = await response.blob();
+//     // request.send();
+//     const response = await fetch(path);
+//     const data = await response.blob();
 
-    window.postMessage(data,"*");
-}
+//     window.postMessage(data,"*");
+// }
 
