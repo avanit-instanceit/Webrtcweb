@@ -89944,21 +89944,19 @@ q=s.gdm()
 s=s.w
 s=q.ck(0,s==null?A.aQ():s)
 return A.aS(p,A.jP("assets/Kiosys.gif",p,B.di,p,p),p,p,p,s.b,p,p,p,r.a)},
-a2l(){var s,r,q,p,o,n,m,l,k,j,i=this,h=null
-if(i.a.c===1){s=i.CW?B.HI:B.HJ
-s=i.wt(B.i,s,B.l,new A.azk(i))}else s=A.aS(h,h,h,h,h,h,h,h,h,h)
-r=i.a.c===1?new A.bQ(B.oF,i.wt(B.vw,B.HD,B.i,new A.azl(i)),h):A.aS(h,h,h,h,h,h,h,h,new A.ak(15,0,15,0),h)
-if(i.a.c===1){q=i.db?B.HN:B.HM
-q=new A.bQ(B.P,i.wt(B.i,q,B.l,new A.azm(i)),h)}else q=A.aS(h,h,h,h,h,h,h,h,h,h)
-p=A.xQ(new A.bQ(B.oF,i.wt(B.i,B.ic,B.l,new A.azn(i)),h),i.a.c===1)
+a2l(){var s,r,q,p,o,n,m,l,k=this,j=null
+if(k.a.c===1){s=k.CW?B.HI:B.HJ
+s=k.wt(B.i,s,B.l,new A.azk(k))}else s=A.aS(j,j,j,j,j,j,j,j,j,j)
+r=k.a.c===1?new A.bQ(B.oF,k.wt(B.vw,B.HD,B.i,new A.azl(k)),j):A.aS(j,j,j,j,j,j,j,j,new A.ak(15,0,15,0),j)
+if(k.a.c===1){q=k.db?B.HN:B.HM
+q=new A.bQ(B.P,k.wt(B.i,q,B.l,new A.azm(k)),j)}else q=A.aS(j,j,j,j,j,j,j,j,j,j)
+p=A.xQ(new A.bQ(B.oF,k.wt(B.i,B.ic,B.l,new A.azn(k)),j),k.a.c===1)
 o=A.cz(30)
-n=i.CW
-if(n&&!i.cC)m=i.W?B.iT:B.i
+n=k.CW
+if(n&&!k.cC)m=k.W?B.iT:B.i
 else m=B.iS
-l=i.W
-k=l?"assets/setting/recordmic.png":"assets/setting/mutemic.png"
-j=t.p
-return A.SW(A.h6(A.a([s,r,q,p,A.xQ(A.jL(h,A.eE(A.a([A.aS(h,new A.bQ(B.P,A.e7(A.jP(k,n&&!i.cC?l?B.i:B.l:B.l,B.di,23,23),h,h),h),h,h,new A.c9(m,h,h,o,h,h,B.L),60,h,h,h,60)],j),B.K,B.M,B.X),B.a1,!1,h,h,h,h,h,h,h,h,new A.azo(i),new A.azp(i),h,h,h,new A.azq(i),h,h,h,h,h,h),!0)],j),B.K,B.cW,B.X),h,h,!1,B.at)},
+l=t.p
+return A.SW(A.h6(A.a([s,r,q,p,A.xQ(A.jL(j,A.eE(A.a([A.aS(j,new A.bQ(B.P,A.e7(A.jP("assets/setting/recordmic.png",n&&!k.cC?k.W?B.i:B.l:B.l,B.di,23,23),j,j),j),j,j,new A.c9(m,j,j,o,j,j,B.L),60,j,j,j,60)],l),B.K,B.M,B.X),B.a1,!1,j,j,j,j,j,j,j,j,new A.azo(k),new A.azp(k),j,j,j,new A.azq(k),j,j,j,j,j,j),!0)],l),B.K,B.cW,B.X),j,j,!1,B.at)},
 Ye(){var s=null,r=A.cz(30)
 return A.i9(!1,s,!0,A.aS(s,A.vv(B.HL,B.l,s),s,s,new A.c9(B.i,s,s,r,s,s,B.L),60,s,s,s,60),s,!0,s,s,s,s,s,s,s,s,s,new A.aAT(this),s,s,s,s)},
 wt(a,b,c,d){var s=null,r=A.cz(30)
