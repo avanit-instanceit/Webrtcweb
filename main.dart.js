@@ -18659,9 +18659,8 @@ a_s:function a_s(a){this.a=a},
 a_t:function a_t(a){this.a=a},
 a_u:function a_u(a){this.a=a},
 a_v:function a_v(){},
-vR:function vR(a,b,c){this.c=a
-this.e=b
-this.a=c},
+vR:function vR(a,b){this.c=a
+this.a=b},
 yU:function yU(a){this.a=null
 this.b=a
 this.c=null},
@@ -59836,7 +59835,7 @@ aF(){var s,r=this
 r.bi()
 r.a.c.a2(0,r.gTP())
 s=r.a.c
-s.Q=!0
+s.Q=!1
 s.sHW(0,"contain")},
 TQ(){if(this.c!=null)this.af(new A.a9C())},
 m(){if(this.c!=null)this.b4()},
@@ -59850,11 +59849,11 @@ A.a9C.prototype={
 $0(){},
 $S:0}
 A.a9E.prototype={
-$0(){return this.a.a.c.Q=!0},
+$0(){return this.a.a.c.Q=!1},
 $S:0}
 A.a9D.prototype={
-$2(a,b){var s,r=null,q=this.a,p=q.a.c
-if(p.y!=null){s=A.aih(p.Q?-3.141592653589793:0)
+$2(a,b){var s,r=null,q=this.a
+if(q.a.c.y!=null){s=A.aih(0)
 s=A.af_(B.af,new A.uf("RTCVideoRenderer-"+q.a.c.z,r),s,!0)
 q=s}else q=A.tc(r,r,r,r,r,r,r,r)
 return A.QH(A.tc(r,q,r,r,b.d,r,r,b.b),r,r)},
@@ -61389,7 +61388,7 @@ q=s.w
 r=r.cc(0,q==null?A.aH():q)
 q=s.ghd()
 s=s.w
-return new A.wu(A.Hv(B.cU,A.a([A.af_(B.af,A.tc(p,new A.vR(this.d,!0,p),p,p,q.cc(0,s==null?A.aH():s).b,p,p,r.a),o,!0),new A.CX(new A.a7w(this),p,p,p,p,B.A,p,!1,p,A.aeN("mirror",p,p),p)],t.E),B.e4),p)}}
+return new A.wu(A.Hv(B.cU,A.a([A.af_(B.af,A.tc(p,new A.vR(this.d,p),p,p,q.cc(0,s==null?A.aH():s).b,p,p,r.a),o,!0),new A.CX(new A.a7w(this),p,p,p,p,B.A,p,!1,p,A.aeN("mirror",p,p),p)],t.E),B.e4),p)}}
 A.a7x.prototype={
 $0(){},
 $S:0}
