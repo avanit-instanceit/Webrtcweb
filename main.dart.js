@@ -89875,8 +89875,8 @@ o=A.aS(q,q,q,q,new A.c9(m,q,q,o,A.a([new A.bs(-1,B.u,n?B.Ed:B.Fy,B.h,14),new A.b
 m=r.a.c===1
 s=t.p
 return A.akI(q,A.EP(!0,A.je(B.aJ,A.a([p,A.rA(q,A.h6(A.a([A.xQ(o,m),A.cb(q,q,20),A.xQ(r.Ye(),m)],s),B.K,B.M,B.X),q,q,q,10,10,q)],s),B.aQ,q,q),!0,B.P,!0,!0))},
-a3_(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=t.w,c=f.c.R(d).f
-d=f.c.R(d).f
+a3_(){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=t.w,d=g.c.R(e).f
+e=g.c.R(e).f
 $.bm()
 s=$.bL()
 r=s.gdm()
@@ -89885,41 +89885,39 @@ r=r.ck(0,q==null?A.aQ():q)
 q=s.gdm()
 p=s.w
 q=q.ck(0,p==null?A.aQ():p)
-r=A.aS(e,f.a2x(),e,e,e,q.b,e,e,e,r.a)
+r=A.aS(f,g.a2x(),f,f,f,q.b,f,f,f,r.a)
 q=t.p
-p=A.rA(e,A.je(B.aJ,A.a([A.aS(e,f.a2J(),e,e,e,200,e,e,e,140),A.jL(e,A.aS(e,e,B.H,e,e,200,e,e,e,140),B.a1,!1,e,e,e,e,e,e,e,e,e,e,e,e,new A.azF(),new A.azG(f),e,e,e,e,e,e)],q),B.aQ,e,e),e,e,10,e,10,e)
-o=f.da
+p=A.rA(f,A.je(B.aJ,A.a([A.aS(f,g.a2J(),f,f,f,200,f,f,f,140),A.jL(f,A.aS(f,f,B.H,f,f,200,f,f,f,140),B.a1,!1,f,f,f,f,f,f,f,f,f,f,f,f,new A.azF(),new A.azG(g),f,f,f,f,f,f)],q),B.aQ,f,f),f,f,10,f,10,f)
+o=g.da
 n=s.gdm()
 m=s.w
 if(n.ck(0,m==null?A.aQ():m).a>600)n=600
 else{n=s.gdm()
 m=s.w
 n=n.ck(0,m==null?A.aQ():m).a}m=A.aU(153,0,0,0)
-l=f.aV
-o=A.xQ(new A.bQ(B.cN,A.aS(e,A.SW(A.bN(f.bH,e,e,e,A.d3(e,e,B.i,e,e,e,e,e,e,e,e,18,e,e,e,e,1.5,!0,e,e,e,e,e,e,e,e),B.ed,e),l,e,!0,B.a5),e,new A.aF(0,1/0,0,200),new A.c9(m,e,e,e,e,e,B.L),e,e,e,new A.ak(10,5,10,5),n),e),o)
-n=A.cb(e,10,e)
-m=f.d1
+l=g.aV
+o=A.xQ(new A.bQ(B.cN,A.aS(f,A.SW(A.bN(g.bH,f,f,f,A.d3(f,f,B.i,f,f,f,f,f,f,f,f,18,f,f,f,f,1.5,!0,f,f,f,f,f,f,f,f),B.ed,f),l,f,!0,B.a5),f,new A.aF(0,1/0,0,200),new A.c9(m,f,f,f,f,f,B.L),f,f,f,new A.ak(10,5,10,5),n),f),o)
+n=A.cb(f,10,f)
+m=g.d1
 k=s.gdm()
 j=s.w
 if(k.ck(0,j==null?A.aQ():j).a>600)k=600
 else{k=s.gdm()
 j=s.w
-k=k.ck(0,j==null?A.aQ():j).a}m=A.xQ(new A.bQ(B.cN,A.aS(e,A.SW(A.bN(f.b1,e,e,e,A.d3(e,e,B.l,e,e,e,e,e,e,e,e,18,e,e,e,e,1.5,!0,e,e,e,e,e,e,e,e),B.ed,e),l,e,!0,B.a5),e,new A.aF(0,1/0,0,200),new A.c9(B.iS,e,e,e,e,e,B.L),e,e,e,new A.ak(10,5,10,5),k),e),m)
-k=A.cb(e,10,e)
-if(f.a.c===1)s=f.a2l()
+k=k.ck(0,j==null?A.aQ():j).a}m=A.xQ(new A.bQ(B.cN,A.aS(f,A.SW(A.bN(g.b1,f,f,f,A.d3(f,f,B.l,f,f,f,f,f,f,f,f,18,f,f,f,f,1.5,!0,f,f,f,f,f,f,f,f),B.ed,f),l,f,!0,B.a5),f,new A.aF(0,1/0,0,200),new A.c9(B.iS,f,f,f,f,f,B.L),f,f,f,new A.ak(10,5,10,5),k),f),m)
+k=A.cb(f,10,f)
+if(g.a.c===1)s=g.a2l()
 else{l=s.gdm()
 s=s.w
 s=l.ck(0,s==null?A.aQ():s)
 l=A.cz(45)
-j=f.CW
-if(j&&!f.cC)i=f.W?B.iT:B.i
+j=g.CW
+if(j&&!g.cC)i=g.W?B.iT:B.i
 else i=B.iS
-h=f.W
-g=h?"assets/setting/recordmic.png":"assets/setting/mutemic.png"
-l=A.aS(e,A.e7(A.jP(g,j&&!f.cC?h?B.i:B.l:B.l,B.di,40,40),e,e),e,e,new A.c9(i,e,e,l,e,e,B.L),90,e,e,e,90)
-i=A.cb(e,10,e)
-g=A.a([B.H,B.hv,B.H],t.t_)
-s=A.xQ(A.jL(e,A.aS(e,A.eE(A.a([l,i,A.aS(e,A.eE(A.a([A.bN("Press & Hold",e,e,e,A.d3(e,e,B.i,e,e,e,e,e,e,e,e,16,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e),A.cb(e,3,e),A.bN("presione y mantenga",e,e,e,A.d3(e,e,B.i,e,e,e,e,e,e,e,e,16,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e)],q),B.K,B.M,B.X),e,e,new A.c9(e,e,e,e,e,new A.vT(B.zl,B.n6,B.bt,g,e,e),B.L),e,e,e,e,e)],q),B.K,B.cW,B.X),e,e,e,e,e,e,e,s.a),B.a1,!1,e,e,e,e,e,e,e,e,new A.azH(f),new A.azI(f),e,e,e,new A.azJ(f),e,e,e,e,e,e),!0)}return A.aS(e,A.je(B.aJ,A.a([r,p,A.rA(20,A.eE(A.a([o,n,m,k,s],q),B.K,B.cW,B.X),e,e,0,0,e,e)],q),B.aQ,e,e),e,e,e,d.a.b,e,e,e,c.a.a)},
+l=A.aS(f,A.e7(A.jP("assets/setting/recordmic.png",j&&!g.cC?g.W?B.i:B.l:B.l,B.di,40,40),f,f),f,f,new A.c9(i,f,f,l,f,f,B.L),90,f,f,f,90)
+i=A.cb(f,10,f)
+h=A.a([B.H,B.hv,B.H],t.t_)
+s=A.xQ(A.jL(f,A.aS(f,A.eE(A.a([l,i,A.aS(f,A.eE(A.a([A.bN("Press & Hold",f,f,f,A.d3(f,f,B.i,f,f,f,f,f,f,f,f,16,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),A.cb(f,3,f),A.bN("presione y mantenga",f,f,f,A.d3(f,f,B.i,f,f,f,f,f,f,f,f,16,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f)],q),B.K,B.M,B.X),f,f,new A.c9(f,f,f,f,f,new A.vT(B.zl,B.n6,B.bt,h,f,f),B.L),f,f,f,f,f)],q),B.K,B.cW,B.X),f,f,f,f,f,f,f,s.a),B.a1,!1,f,f,f,f,f,f,f,f,new A.azH(g),new A.azI(g),f,f,f,new A.azJ(g),f,f,f,f,f,f),!0)}return A.aS(f,A.je(B.aJ,A.a([r,p,A.rA(20,A.eE(A.a([o,n,m,k,s],q),B.K,B.cW,B.X),f,f,0,0,f,f)],q),B.aQ,f,f),f,f,f,e.a.b,f,f,f,d.a.a)},
 a2x(){var s=this,r=null
 if(s.cx)if(s.a.c===1)return!s.db?s.ww():A.aS(r,A.e7(A.jP("assets/logo2.png",r,r,r,r),r,r),B.i,r,r,r,r,r,r,r)
 else return!s.db?s.ww():A.aS(r,r,r,r,r,r,r,r,r,r)
