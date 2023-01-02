@@ -75593,22 +75593,23 @@ case 2:s=3
 return A.z(q.z.wH(0),$async$rv)
 case 3:return A.w(null,r)}})
 return A.x($async$rv,r)},
-rR(){var s=0,r=A.y(t.z),q=this,p,o,n
+rR(){var s=0,r=A.y(t.z),q=this,p,o,n,m
 var $async$rR=A.u(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:$.FY()
 s=2
 return A.z(new A.oK().of(0),$async$rR)
 case 2:p=b
-o=A.D(t.N,t.z)
-o.l(0,"video",!0)
-o.l(0,"audio",!0)
-if(q.a.e!=="")J.dS(p,new A.ame(q,o))
-A.bz(o)
+o=t.N
+n=A.D(o,t.z)
+n.l(0,"video",A.S(["facingMode","user","mandatory",A.S(["minWidth",320,"maxWidth",1920,"minHeight",180,"maxHeight",1080,"maxFrameRate",60],o,t.S)],o,t.K))
+n.l(0,"audio",A.S(["audio",!0],o,t.y))
+if(q.a.e!=="")J.dS(p,new A.ame(q,n))
+A.bz(n)
 s=3
-return A.z(new A.oK().mP(0,o),$async$rR)
-case 3:n=b
-q.y.syJ(0,n)
-q.as=n
+return A.z(new A.oK().mP(0,n),$async$rR)
+case 3:m=b
+q.y.syJ(0,m)
+q.as=m
 q.a3(new A.amf())
 return A.w(null,r)}})
 return A.x($async$rR,r)},
@@ -76151,7 +76152,7 @@ Xt(){var s=null,r=A.eu(30)
 return new A.to(new A.alH(this),new A.alI(this),A.br(s,A.a3C(B.Dn,B.l),s,s,new A.dA(B.i,s,s,r,s,s,B.aj),60,s,s,s,60),!0,s,t.nT)}}
 A.ame.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.l(0,"audio",A.S(["deviceId",r],t.N,t.T))},
+if(s===r)this.b.l(0,"audio",A.S(["deviceId",r,"audio",!0],t.N,t.X))},
 $S:91}
 A.amf.prototype={
 $0(){},
