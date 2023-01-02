@@ -75601,7 +75601,7 @@ return A.z(new A.oK().of(0),$async$rR)
 case 2:p=b
 o=t.N
 n=A.D(o,t.z)
-n.l(0,"video",A.S(["facingMode","user","mandatory",A.S(["minWidth",320,"maxWidth",1920,"minHeight",180,"maxHeight",1080,"maxFrameRate",60],o,t.S)],o,t.K))
+n.l(0,"video",A.S(["facingMode","user"],o,o))
 n.l(0,"audio",A.S(["audio",!0],o,t.y))
 if(q.a.e!=="")J.dS(p,new A.ame(q,n))
 A.bz(n)
