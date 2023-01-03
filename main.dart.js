@@ -75480,7 +75480,7 @@ k=A.f5(f,20,f)
 j=g.Xg()
 i=A.f5(f,20,f)
 h=A.d8(30)
-return A.aao(f,A.bm(f,A.j9(A.bm(f,A.GO(new A.cV(new A.aC(20,20,20,20),A.XM(A.a([o,n,l,k,j,i,A.bm(f,A.aGE(g.d.ax,A.a46(f,new A.eI(4,A.d8(30),new A.dB(B.l,1,B.aN,B.ai)),f,new A.aC(20,10,0,10),f,f,f,f,!0,f,f,f,f,f,f,f,f,f,f,f,new A.eI(4,h,new A.dB(B.l,1,B.aN,B.ai)),f,f,f,f,f,f,"Enter Hotel Id",f,f,f,f,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f)),f,f,f,f,f,f,f,f),A.f5(f,50,f),g.Xd()],m),B.aP,B.tE,B.bi),f),f,p,new A.cB(q,B.q)),f,f,f,r,f,f,f,s),f,f),f,f,new A.dj(f,new A.HV(new A.qC("assets/images/login_bg.png",f,f),B.y0),f,f,f,f,B.ag),f,f,f,f,f))},
+return A.aao(f,A.bm(f,A.j9(A.bm(f,A.GO(new A.cV(new A.aC(30,30,30,30),A.XM(A.a([o,n,l,k,j,i,A.bm(f,A.aGE(g.d.ax,A.a46(f,new A.eI(4,A.d8(30),new A.dB(B.l,1,B.aN,B.ai)),f,new A.aC(20,10,0,10),f,f,f,f,!0,f,f,f,f,f,f,f,f,f,f,f,new A.eI(4,h,new A.dB(B.l,1,B.aN,B.ai)),f,f,f,f,f,f,"Enter Hotel Id",f,f,f,f,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f)),f,f,f,f,f,f,f,f),A.f5(f,50,f),g.Xd()],m),B.aP,B.tE,B.bi),f),f,p,new A.cB(q,B.q)),f,f,f,r,f,f,f,s),f,f),f,f,new A.dj(f,new A.HV(new A.qC("assets/images/login_bg.png",f,f),B.y0),f,f,f,f,B.ag),f,f,f,f,f))},
 Xd(){var s,r,q=null
 $.ba()
 s=$.bs()
