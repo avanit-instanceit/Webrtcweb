@@ -75605,7 +75605,7 @@ p=p.c4(0,s==null?A.aN():s)
 s=q.gcY()
 q=q.w
 q=s.c4(0,q==null?A.aN():q)
-p=A.bm(r,A.j9(A.bm(r,A.Jx("assets/Kiosys.gif",B.lX,r,r),r,r,r,q.b,r,r,r,p.a),r,r),r,r,r,r,r,r,r,r)
+p=A.bm(r,A.j9(A.bm(r,A.Jx("assets/bg_img.png",B.lX,r,r),r,r,r,q.b,r,r,r,p.a),r,r),r,r,r,r,r,r,r,r)
 q=p}return q},
 $S:91}
 A.akx.prototype={
@@ -76180,7 +76180,7 @@ r=r.c4(0,q==null?A.aN():q)
 q=s.gcY()
 s=s.w
 s=q.c4(0,s==null?A.aN():s)
-return A.bm(p,A.Jx("assets/Kiosys.gif",B.lX,p,p),p,p,p,s.b,p,p,p,r.a)},
+return A.bm(p,A.Jx("assets/bg_img.png",B.lX,p,p),p,p,p,s.b,p,p,p,r.a)},
 X9(){var s,r,q,p=this,o=null
 if(p.a.c===1){s=p.dy?B.Dm:B.Dn
 s=p.tS(B.i,s,B.l,new A.alo(p))}else s=A.bm(o,o,o,o,o,o,o,o,o,o)
