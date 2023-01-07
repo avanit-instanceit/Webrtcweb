@@ -80075,6 +80075,7 @@ var $async$wa=A.u(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:q.RG=a
 A.bz("CONNECTIONSTATUS************************** "+a.j(0))
 if(a!==B.cX){p=q.k2
+A.bz("isreconnect "+A.f(p.gm(p)))
 if(p.gm(p))q.rI()}return A.w(null,r)}})
 return A.x($async$wa,r)},
 jX(){var s=0,r=A.y(t.y),q
