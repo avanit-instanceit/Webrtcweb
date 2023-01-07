@@ -79902,36 +79902,38 @@ return A.w(null,r)}})
 return A.x($async$pU,r)},
 rI(){var s=0,r=A.y(t.z),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$rI=A.u(function(a,b){if(a===1)return A.v(b,r)
-while(true)switch(s){case 0:A.bw(!q.p4.y)
-p=t.N
-o=t.z
-n=A.P(["transports",A.a(["websocket"],t.s),"autoConnect",!1],p,o)
-m=A.ks("https://call.kioclerk.com:3660",0,null)
-l=m.gdw()+"://"+m.ghd(m)+":"+m.glO(m)
-k=m.gbV(m)
-j=$.asI.V(0,l)&&$.asI.h(0,l).d.V(0,k)
-i=n.h(0,"forceNew")===!0||n.h(0,"force new connection")===!0||!1===n.h(0,"multiplex")||j
-h=A.b1("io")
-if(i){$.aGq().aD(B.l,"ignoring socket cache for https://call.kioclerk.com:3660",null,null)
-h.b=A.azS(n,"https://call.kioclerk.com:3660")}else{g=$.asI.h(0,l)
-if(g==null){g=A.azS(n,"https://call.kioclerk.com:3660")
-$.asI.l(0,l,g)}h.b=g}if(m.gju(m).length!==0&&n.h(0,"query")==null)n.l(0,"query",m.gju(m))
-else n.h(0,"query")
-g=h.au()
-f=m.gbV(m).length===0?"/":m.gbV(m)
-e=g.d
-d=e.h(0,f)
-if(d==null){c=t.sB
-d=new A.Cw(f,n,g,A.q(o,o),[],[],A.q(o,o),A.bQ(null,null,null,p,c),A.bQ(null,null,null,p,c),A.a([],t.hx))
-n.h(0,"query")
-d.ax=n.h(0,"auth")
-p=g.cy
-p===$&&A.b()
-if(p)d.Pg()
-e.l(0,f,d)}q.p4=d
-if(!d.y)d.Pg()
-p=q.p4
-if(p!=null)p.lh("subscribe",q.ch)
+while(true)switch(s){case 0:c=q.p4
+c=c==null?null:c.y
+A.bw("socket connected "+(c===!0))
+c=t.N
+p=t.z
+o=A.P(["transports",A.a(["websocket"],t.s),"autoConnect",!1],c,p)
+n=A.ks("https://call.kioclerk.com:3660",0,null)
+m=n.gdw()+"://"+n.ghd(n)+":"+n.glO(n)
+l=n.gbV(n)
+k=$.asI.V(0,m)&&$.asI.h(0,m).d.V(0,l)
+j=o.h(0,"forceNew")===!0||o.h(0,"force new connection")===!0||!1===o.h(0,"multiplex")||k
+i=A.b1("io")
+if(j){$.aGq().aD(B.l,"ignoring socket cache for https://call.kioclerk.com:3660",null,null)
+i.b=A.azS(o,"https://call.kioclerk.com:3660")}else{h=$.asI.h(0,m)
+if(h==null){h=A.azS(o,"https://call.kioclerk.com:3660")
+$.asI.l(0,m,h)}i.b=h}if(n.gju(n).length!==0&&o.h(0,"query")==null)o.l(0,"query",n.gju(n))
+else o.h(0,"query")
+h=i.au()
+g=n.gbV(n).length===0?"/":n.gbV(n)
+f=h.d
+e=f.h(0,g)
+if(e==null){d=t.sB
+e=new A.Cw(g,o,h,A.q(p,p),[],[],A.q(p,p),A.bQ(null,null,null,c,d),A.bQ(null,null,null,c,d),A.a([],t.hx))
+o.h(0,"query")
+e.ax=o.h(0,"auth")
+c=h.cy
+c===$&&A.b()
+if(c)e.Pg()
+f.l(0,g,e)}q.p4=e
+if(!e.y)e.Pg()
+c=q.p4
+if(c!=null)c.lh("subscribe",q.ch)
 q.zZ()
 q.A_()
 return A.w(null,r)}})
