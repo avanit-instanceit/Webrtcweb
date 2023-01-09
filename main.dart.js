@@ -80272,29 +80272,31 @@ case 3:return A.x(null,r)}})
 return A.y($async$pD,r)},
 pd(){var s=0,r=A.z(t.z),q=this,p,o,n,m,l
 var $async$pd=A.u(function(a,b){if(a===1)return A.w(b,r)
-while(true)switch(s){case 0:A.auu(q.ax)
-p=q.ay
-o=t.N
-n=t.z
-m=new A.fG(p.gm(p),"force_reconnection",A.O(["reconnect","1"],o,n)).cJ()
-l=q.ch
-l.toString
+while(true)switch(s){case 0:l=q.dx
+A.bz(l==null?null:l.e.active)
+A.auu(q.ax)
+l=q.ay
+p=t.N
+o=t.z
+n=new A.fG(l.gm(l),"force_reconnection",A.O(["reconnect","1"],p,o)).cJ()
+m=q.ch
+m.toString
 s=2
-return A.v(q.fb(m,l),$async$pd)
-case 2:l=q.cx
-if(l==null)m=null
-else{m=l.at
-m===$&&A.b()
-m.restartIce()
-m=A.c8(null,t.H)}s=3
-return A.v(m,$async$pd)
+return A.v(q.fb(n,m),$async$pd)
+case 2:m=q.cx
+if(m==null)n=null
+else{n=m.at
+n===$&&A.b()
+n.restartIce()
+n=A.c8(null,t.H)}s=3
+return A.v(n,$async$pd)
 case 3:s=4
 return A.v(q.nC(),$async$pd)
 case 4:if($.arx!=null)A.KV($.b9())
-p=new A.fG(p.gm(p),"force_reconnection",A.O(["reconnect","0"],o,n)).cJ()
-o=q.ch
-o.toString
-q.fb(p,o)
+l=new A.fG(l.gm(l),"force_reconnection",A.O(["reconnect","0"],p,o)).cJ()
+p=q.ch
+p.toString
+q.fb(l,p)
 return A.x(null,r)}})
 return A.y($async$pd,r)},
 uC(){var s=0,r=A.z(t.X7),q,p=2,o,n=this,m,l,k,j,i
