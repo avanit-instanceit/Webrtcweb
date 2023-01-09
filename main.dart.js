@@ -23526,7 +23526,7 @@ ahV:function ahV(a){this.a=a},
 ahK:function ahK(){},
 ai2:function ai2(a){this.a=a},
 ahG:function ahG(){},
-ai1:function ai1(a){this.a=a},
+ai1:function ai1(){},
 ahF:function ahF(a){this.a=a},
 ahE:function ahE(a){this.a=a},
 ahA:function ahA(){},
@@ -80408,7 +80408,7 @@ return A.aDl(r)},
 A8(){var s=0,r=A.y(t.z),q=this,p
 var $async$A8=A.t(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:p=q.ay
-if(J.e(p.gm(p),2))q.pX().kk(new A.ai1(q))
+if(J.e(p.gm(p),2))q.pX().kk(new A.ai1())
 return A.w(null,r)}})
 return A.x($async$A8,r)},
 fb(a,b){return this.ah4(a,b)},
@@ -80716,8 +80716,7 @@ A.ahG.prototype={
 $0(){},
 $S:5}
 A.ai1.prototype={
-$1(a){var s=this.a.k3
-if(!J.e(s.gm(s),a))A.bz("Remote Stream is live : ------"+A.f(a)+"------")},
+$1(a){A.bz("Remote Stream is live : ------"+A.f(a)+"------")},
 $S:13}
 A.ahF.prototype={
 $1(a){var s=this.a.dy
