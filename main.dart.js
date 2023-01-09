@@ -79998,7 +79998,7 @@ case 5:s=10
 return A.z(q.iJ(0,l),$async$re)
 case 10:s=3
 break
-case 6:if(J.e(n.h(a,"usertype"),2))q.q4(l)
+case 6:q.q4(l)
 s=3
 break
 case 7:p=J.av(l,"isavailable")
@@ -80040,7 +80040,7 @@ case 9:s=10
 return A.z(q.uH(),$async$rN)
 case 10:s=3
 break
-case 5:if(J.e(p.h(a,"usertype"),1))q.q4(n)
+case 5:q.q4(n)
 s=3
 break
 case 6:q.adg()
