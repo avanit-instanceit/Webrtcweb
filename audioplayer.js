@@ -23,25 +23,24 @@ function playAudio(path){
     }
 }
 
+function stopAudio(){
+    audio.pause();
+}
+
 function handleAudioEvent(){
     audio.onplay = function(){
-        console.log("play");
         sendStatusToDart("play");
     };
     audio.onabort = function(){
-        console.log("abort");
         sendStatusToDart("abort");
     }
     audio.onplaying = function(){
-        console.log("playing");
         sendStatusToDart("playing");
     }
     audio.onerror = function(){
-        console.log("error");
         sendStatusToDart("error");
     }
     audio.onended = function(){
-        console.log("ended");
         sendStatusToDart("ended");
     }
 }
