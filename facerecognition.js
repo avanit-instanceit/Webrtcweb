@@ -7,11 +7,11 @@ Promise.all([
   faceapi.nets.ssdMobilenetv1.loadFromUri('/models')
 ])
 
-async function detectFaceFromImage(imageurl){
+async function detectFaceFromImage(base64){
 
-  const img = await faceapi.fetchImage(imageurl);
+  const img = await faceapi.fetchImage("data:image/png;base64,"+base64);
   const detections = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor();
-  //console.log(detections.detection.classScore);
+  // console.log(detections.detection.classScore);
 
   if(detections == undefined){
     return false;
