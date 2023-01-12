@@ -84097,7 +84097,7 @@ case 6:n=c
 k=t.N
 m=A.A(k,t.z)
 J.cS(m,"video",A.Q(["facingMode","user"],k,k))
-J.cS(m,"audio",A.Q(["sampleRate","48000","sampleSize","16","autoGainControl",!1],k,t.K))
+J.cS(m,"audio",A.Q(["autoGainControl",!1],k,t.y))
 if(o.CW!=="")J.cZ(n,new A.ako(o,m))
 A.bo(m)
 s=7
@@ -84826,7 +84826,7 @@ this.a.rG(a)},
 $S:525}
 A.ako.prototype={
 $1(a){var s=a.a,r=this.a.CW
-if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"sampleRate","48000","sampleSize","16","autoGainControl",!1],t.N,t.X))},
+if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"autoGainControl",!1],t.N,t.X))},
 $S:110}
 A.akp.prototype={
 $1(a){var s=this.a
