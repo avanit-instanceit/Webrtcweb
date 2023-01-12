@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1fbc9a54b56fc2ba33b2841e12e5875a",
-"index.html": "9a2eb5cce6892c4238568f70df95161e",
-"/": "9a2eb5cce6892c4238568f70df95161e",
+"index.html": "906e03e54c81510edd69e2c6788ceb78",
+"/": "906e03e54c81510edd69e2c6788ceb78",
 "speechrecognition.js": "da94096963ca17769ff4397b35c1a0e2",
 "face-api.min.js": "b9fa3888f6ded30c7d01a8f1ed153310",
-"main.dart.js": "09407d0a23960f453a55b5f7a14188a2",
+"main.dart.js": "c11a692b53ee1f1a28f003095ed713bf",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "facerecognition.js": "17034aae26f6b3be1dd0bfdc212160db",
 "models/face_landmark_68_tiny_model-shard1": "47047fee26557b55d985952bdfc6cba1",
