@@ -84100,7 +84100,7 @@ case 6:n=c
 k=t.N
 m=A.A(k,t.z)
 J.cS(m,"video",A.Q(["facingMode","user"],k,k))
-J.cS(m,"audio",A.Q(["echoCancellation",!0],k,t.y))
+J.cS(m,"audio",A.Q(["echoCancellation",!0,"noiseSuppression",!0],k,t.y))
 if(o.CW!=="")J.cZ(n,new A.akp(o,m))
 A.bl(m)
 s=7
@@ -84860,7 +84860,7 @@ this.a.rG(a)},
 $S:525}
 A.akp.prototype={
 $1(a){var s=a.a,r=this.a.CW
-if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"echoCancellation",!0],t.N,t.X))},
+if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"echoCancellation",!0,"noiseSuppression",!0],t.N,t.X))},
 $S:110}
 A.akq.prototype={
 $1(a){var s=this.a
