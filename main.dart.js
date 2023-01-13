@@ -84090,7 +84090,7 @@ case 2:s=3
 return A.z(q.db.yT(0),$async$ui)
 case 3:return A.u(null,r)}})
 return A.v($async$ui,r)},
-qr(a){var s=0,r=A.w(t.z),q=1,p,o=this,n,m,l,k,j,i,h
+qr(a){var s=0,r=A.w(t.z),q=1,p,o=this,n,m,l,k,j,i
 var $async$qr=A.q(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 $.yJ()
@@ -84098,10 +84098,9 @@ s=6
 return A.z(new A.nW().pz(0),$async$qr)
 case 6:n=c
 k=t.N
-j=t.z
-m=A.A(k,j)
+m=A.A(k,t.z)
 J.cS(m,"video",A.Q(["facingMode","user"],k,k))
-J.cS(m,"audio",A.A(j,j))
+J.cS(m,"audio",A.Q(["echoCancellation",!0],k,t.y))
 if(o.CW!=="")J.cZ(n,new A.akp(o,m))
 A.bl(m)
 s=7
@@ -84110,8 +84109,8 @@ case 7:q=1
 s=5
 break
 case 3:q=2
-h=p
-l=A.a1(h)
+i=p
+l=A.a1(i)
 A.bl("Error : "+A.e(J.bX(l)))
 s=5
 break
@@ -84861,7 +84860,7 @@ this.a.rG(a)},
 $S:525}
 A.akp.prototype={
 $1(a){var s=a.a,r=this.a.CW
-if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r],t.N,t.T))},
+if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"echoCancellation",!0],t.N,t.X))},
 $S:110}
 A.akq.prototype={
 $1(a){var s=this.a
