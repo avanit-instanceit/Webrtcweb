@@ -4,13 +4,13 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1fbc9a54b56fc2ba33b2841e12e5875a",
-"index.html": "2a8ab0b0c6ba44caf56757cf34edba41",
-"/": "2a8ab0b0c6ba44caf56757cf34edba41",
+"index.html": "b76335dc0a0c8602ae27e432a42c5a81",
+"/": "b76335dc0a0c8602ae27e432a42c5a81",
 "speechrecognition.js": "da94096963ca17769ff4397b35c1a0e2",
 "face-api.min.js": "b9fa3888f6ded30c7d01a8f1ed153310",
-"main.dart.js": "2fe9b11fc58ede3d3e4234684f29f360",
+"main.dart.js": "63d512ddb8d8792933e1663662fdae51",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"facerecognition.js": "17034aae26f6b3be1dd0bfdc212160db",
+"facerecognition.js": "47ebdcfb2b5b22553709e3f3fed097b6",
 "models/face_landmark_68_tiny_model-shard1": "47047fee26557b55d985952bdfc6cba1",
 "models/face_recognition_model-shard2": "f2091ed03625f6e164a637c2326691c1",
 "models/face_landmark_68_model-weights_manifest.json": "1d4029763003335bc6921aadeb58706a",
