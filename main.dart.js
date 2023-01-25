@@ -83821,8 +83821,8 @@ Uo(a){var s,r=A.a(a.split("\n"),t.s),q=0
 while(!0){if(!(q<r.length)){s=-1
 break}if(J.mT(r[q],"m=video")===0){s=q
 break}++q}if(s===-1)A.bj("---could not set bitrate ----");++s
-while(!0){if(!(J.mT(r[s],"i=")===0||J.mT(r[s],"c=")===0))break;++s}if(J.mT(r[s],"b=")===0){r[s]="b=AS:1500"
-return B.c.aG(r,"\n")}B.c.tZ(r,s,"b=AS:1500")
+while(!0){if(!(J.mT(r[s],"i=")===0||J.mT(r[s],"c=")===0))break;++s}if(J.mT(r[s],"b=")===0){r[s]="b=AS:2000"
+return B.c.aG(r,"\n")}B.c.tZ(r,s,"b=AS:2000")
 return B.c.aG(r,"\n")},
 ew(a,b){return this.ajb(a,b)},
 ajb(a,b){var s=0,r=A.A(t.z),q,p,o,n,m
