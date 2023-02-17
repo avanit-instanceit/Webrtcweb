@@ -92353,7 +92353,7 @@ case 2:p=b
 o=t.N
 n=A.A(o,t.z)
 n.m(0,"video",A.Q(["facingMode","user"],o,o))
-n.m(0,"audio",A.Q(["audio",!0,"echoCancellation",!0,"autoGainControl",!1],o,t.y))
+n.m(0,"audio",A.Q(["audio",!0,"echoCancellation",!0],o,t.y))
 if(q.a.e!=="")J.dh(p,new A.b08(q,n))
 s=3
 return A.E(new A.o1().na(0,n),$async$vw)
@@ -93027,7 +93027,7 @@ a2H(){var s=null,r=A.eH(30)
 return new A.vP(new A.b_w(this),new A.b_x(this),B.ag,A.bC(s,A.On(B.GO,B.l),s,s,new A.cZ(B.i,s,s,r,s,s,B.aa),60,s,s,s,60),!0,s,t.nT)}}
 A.b08.prototype={
 $1(a){var s=a.a,r=this.a.a.e
-if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"echoCancellation",!0,"autoGainControl",!1,"audio",!0],t.N,t.X))},
+if(s===r)this.b.m(0,"audio",A.Q(["deviceId",r,"echoCancellation",!0,"audio",!0],t.N,t.X))},
 $S:112}
 A.b09.prototype={
 $0(){},
